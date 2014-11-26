@@ -62,7 +62,7 @@ class Url(object):
         except IOError:
             return {}
 
-    @staticmethod
+    @statismethod
     def __save_url_mapping(instance):
         """"Return short url to Url instance mapping."""
         short_to_url = Url.__load_url_mapping()
